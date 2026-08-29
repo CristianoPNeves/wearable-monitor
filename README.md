@@ -65,7 +65,10 @@ flutter pub get
 # 4. Executar no dispositivo conectado
 flutter run
 
-👥 Autores
+---
+
+
+## 👥 Autores
 Projeto desenvolvido pelos integrantes do Grupo 10 para a disciplina de Projeto Integrador 6 da UNIVESP:
 
 Adriel Saul Cândido Vieira de Oliveira 
@@ -75,5 +78,9 @@ Cristiano da Palma Neves
 Diogo Rafael Xavier Anunciação 
 Sergio Martins Thomaz Júnior 
 Tatiana Lissa Bastos Soares 
-Ygor Henrique Chagas Silva 
+Ygor Henrique Chagas Silva
+
+---
+
+
 
