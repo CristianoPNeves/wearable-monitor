@@ -38,3 +38,42 @@ Sistema IoT vestível (*smartwatch/wearable*) autônomo e de baixo custo, desenv
 ---
 
 ## 📱 Fluxo de Comunicação do Sistema
+
+<img width="1536" height="1024" alt="ChatGPT Image 27 de ago  de 2026, 06_35_54" src="https://github.com/user-attachments/assets/e1c644c1-f209-4ba9-ad4f-d9099b4e1dbb" />
+
+
+
+---
+
+## 📦 Como Executar o Aplicativo
+
+### Pré-requisitos
+- Flutter SDK instalado
+- Dispositivo Android com modo de depuração USB ativo (ou emulador)
+
+### Passo a passo
+```bash
+# 1. Clonar o repositório
+git clone [https://github.com/CristianoPNeves/wearable-monitor.git](https://github.com/CristianoPNeves/wearable-monitor.git)
+
+# 2. Acessar a pasta do projeto
+cd wearable-monitor
+
+# 3. Baixar os pacotes e dependências
+flutter pub get
+
+# 4. Executar no dispositivo conectado
+flutter run
+
+👥 Autores
+Projeto desenvolvido pelos integrantes do Grupo 10 para a disciplina de Projeto Integrador 6 da UNIVESP:
+
+Adriel Saul Cândido Vieira de Oliveira 
+Ana Maria Fontes da Silva
+Andre Marcelino Santos
+Cristiano da Palma Neves 
+Diogo Rafael Xavier Anunciação 
+Sergio Martins Thomaz Júnior 
+Tatiana Lissa Bastos Soares 
+Ygor Henrique Chagas Silva 
+
