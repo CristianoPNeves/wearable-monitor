@@ -64,3 +64,14 @@ flutter pub get
 
 # 4. Executar no dispositivo conectado
 flutter run  
+
+## 👥 Integrantes da Equipe (Grupo 10)
+
+* **Adriel Saul Cândido Vieira de Oliveira**
+* **Ana Maria Fontes da Silva**
+* **Andre Marcelino Santos**
+* **Cristiano da Palma Neves**
+* **Diogo Rafael Xavier Anunciação**
+* **Sergio Martins Thomaz Júnior**
+* **Tatiana Lissa Bastos Soares**
+* **Ygor Henrique Chagas Silva**
