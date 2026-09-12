@@ -1,3 +1,7 @@
+plugins {
+    id("com.google.gms.google-services") version "4.4.2" apply false
+}
+
 allprojects {
     repositories {
         google()
@@ -5,16 +9,26 @@ allprojects {
     }
 }
 
-val newBuildDir: Directory =
-    rootProject.layout.buildDirectory
-        .dir("../../build")
-        .get()
+val newBuildDir: Directory = rootProject.layout.buildDirectory.dir("../../build").get()
 rootProject.layout.buildDirectory.value(newBuildDir)
 
 subprojects {
     val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)
     project.layout.buildDirectory.value(newSubprojectBuildDir)
 }
+
+// Força todos os plugins a usarem compileSdk 36
+subprojects {
+    afterEvaluate {
+        if (project.hasProperty("android")) {
+            val extension = project.extensions.findByName("android")
+            if (extension is com.android.build.gradle.BaseExtension) {
+                extension.compileSdkVersion(36)
+            }
+        }
+    }
+}
+
 subprojects {
     project.evaluationDependsOn(":app")
 }
